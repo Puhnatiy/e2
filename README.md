@@ -3,4 +3,5 @@
 выполните установки согласно файлу requirements.txt: pip install -r requirements.txt<br>
 В приложении SENDGRID_API_KEY прописан явно. Письма отправляет только с почты и на почту, указанные в коде.<br>
 Можно указать свой секретный ключ с помощью переменной окружения SENDGRID_API_KEY, убрать комментарий со строки sg = SendGridAPIClient(os.get('SENDGRID_API_KEY')) и закомментироваь код с явным указанием ключа<br>
+В файле service.py установите свои значения адресов EMAIL_FROM и EMAIL_TO<br>
 запустите приложение: python app.py<br>
